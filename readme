@@ -1,0 +1,15 @@
+
+HOW TO INSTALL:To install, use "bash install.sh".
+
+Usage:
+	1. POT: Read the POSCAR file automatically form current folder,and create a POTCAR file.
+	2. SUB: Detect and run the potential jobs(at least the INCAR,POSCAR,KPOINTS files exist).If there is no POTCAR,it will automatically create a POTCAR.
+	3. GET: Get the key information from output files.It will detect the output files automatically.If there is a internet connection,it will send you an e-mail to inform you.
+		"SUB && GET" will save some time.
+		
+NOTE:
+	1.Don't use folder names with spaces!
+	2.All input should has space.
+		e.g.     1 2 3 4;the tab and other keys are not accepted
+	3.In current version,the max supported number of job is 99;
+	
